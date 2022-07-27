@@ -7,14 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<script type="text/javascript">
-	function chk(){
-		location.href='chk'
-		close()
-	}
-</script>
-	popup.jsp
-	
-	<input type="checkbox" onclick="chk()">하루동안 열지않음
+	세션이 생성되었습니다<br>
+	m.id : ${requestScope.id }<br>
+	s.id : ${sessionScope.id }<br>
+	name : ${name }<hr>
+	<a href="resultSession">확인 세션</a>
 </body>
 </html>

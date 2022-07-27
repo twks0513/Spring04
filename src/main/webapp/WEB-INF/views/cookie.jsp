@@ -8,9 +8,7 @@
 </head>
 <body>
 	cookie.jsp
-	<script type="text/javascript">
-	var pop = window.open("popup","poppop","width=200 height=200")
-	</script>
+	
 	
 </body>
 </html>

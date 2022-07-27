@@ -5,16 +5,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
 </head>
 <body>
-<script type="text/javascript">
-	function chk(){
-		location.href='chk'
-		close()
-	}
-</script>
-	popup.jsp
+	${name }님 안녕하세요<br>
+	<a href="logout">로그아웃</a><br>
+	<a href="cookie_quiz">로그인 페이지</a>
 	
-	<input type="checkbox" onclick="chk()">하루동안 열지않음
+	
+	
 </body>
 </html>

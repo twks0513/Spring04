@@ -7,14 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<script type="text/javascript">
-	function chk(){
-		location.href='chk'
-		close()
-	}
-</script>
-	popup.jsp
-	
-	<input type="checkbox" onclick="chk()">하루동안 열지않음
+	m.id : ${requsetScope.id }<br>
+	s.id : ${sessionScope.id }<br>
+	name : ${name }<hr>
+	<a href="delSession">삭제 세션</a>
 </body>
 </html>
